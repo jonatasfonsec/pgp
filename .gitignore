@@ -1,15 +1,36 @@
+# Build
 target/
 *.log
 
-# Eclipse
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / STS
 .classpath
 .project
 .settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
 
 # IntelliJ
 .idea/
 *.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
 
 # OS
 .DS_Store
-Thumbs
+Thumbs.db
